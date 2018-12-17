@@ -15,4 +15,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/newIndex', '\\' . \App\Http\Controllers\IndexController::class) -> name ('home');
+Route::get('/newIndex', '\\' . \App\Http\Controllers\IndexController::class);
+Route::get('/contact-us', '\\' . \App\Http\Controllers\ContactUsController::class);

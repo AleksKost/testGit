@@ -1,6 +1,6 @@
 @extends('layout')
 @section('content')
 
-    <h1> Главная страница </h1>
+    <h1> Контакты</h1>
 
     @endsection

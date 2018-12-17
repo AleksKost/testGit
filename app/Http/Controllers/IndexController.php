@@ -8,6 +8,6 @@ class IndexController extends Controller
 {
     public function __invoke(Request $request)
     {
-        return view('index', ['title' => 'Hillel']);
+        return view('index');
     }
 }
